@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit some common Awaken stuff.
-$(call inherit-product, vendor/evolution/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet_wifionly.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BUILD_APERTURE_CAMERA := true
-EVO_BUILD_TYPE := OFFICIAL
+#EVO_BUILD_TYPE := OFFICIAL
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit device configuration for nabu.
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
-PRODUCT_NAME := evolution_nabu
+PRODUCT_NAME := lmodroid_nabu
 PRODUCT_DEVICE := nabu
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
