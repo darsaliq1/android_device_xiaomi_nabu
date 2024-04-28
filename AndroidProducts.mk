@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_nabu.mk
+    $(LOCAL_DIR)/lmodroid_nabu.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_nabu-user \
-    evolution_nabu-userdebug \
-    evolution_nabu-eng
+    lmodroid_nabu-user \
+    lmodroid_nabu-userdebug \
+    lmodroid_nabu-eng
