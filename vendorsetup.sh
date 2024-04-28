@@ -8,7 +8,7 @@ git clone --depth=1 https://github.com/Kfkcome/android_kernel_xiaomi_nabu.git -b
 # Vendor
 echo 'Cloning Vendor tree'
 rm -rf vendor/xiaomi/nabu
-git clone https://github.com/Kfkcome/android_vendor_xiaomi_nabu.git -b 14.0 vendor/xiaomi/haydn
+git clone https://github.com/Kfkcome/android_vendor_xiaomi_nabu.git -b 14.0 vendor/xiaomi/nabu
 
 
 # Xiaomi
